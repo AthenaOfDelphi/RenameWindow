@@ -73,7 +73,7 @@ If you want to obtain a list of windows, you can use the `/list` option.  For ex
     [Discord.exe] - MSCTFIME UI - {MSCTFIME UI}
     .....
 
-As you can seen, the main Discord window was renamed using the sample configuration provided above.
+As you can see, the main Discord window was renamed using the sample configuration provided above.
 
 ## Source Code
 
