@@ -12,6 +12,8 @@ Enter 'renamewindow'.
 
 RenameWindow is a small console application that gets a list of windows and then finds the ones you want to change and sets a new title for the window.  The configuration is stored in an INI file (renamewindow.ini) which should be in the same directory as the EXE.
 
+**NOTE:-** The changes made by this application are not permanent.  The examples I give (Notion and Discord) both have highly dynamic window titles and as such, navigating to another page in Notion or changing channel in Discord will change the windows title.  Thus, the intended use is run this application and then fireup OBS immediately.  It should be noted that as far as I can tell, OBS won't find the windows of non-visible sources until they are made visible, so you should setup a hot key or something that makes the sources visible so their windows can be found.
+
 ## Sample Configuration
 
     # Specify some default values
